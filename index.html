@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+
+    <link href="http://vjs.zencdn.net/5.5.3/video-js.css" rel="stylesheet">
+
+    <!-- support IE8 -->
+    <!--[if lt IE 9]>
+    <script src="http://vjs.zencdn.net/ie8/1.1.1/videojs-ie8.min.js"></script>
+    <![endif]-->
+
+    <link href="/css/index.css" rel="stylesheet">
+
+</head>
+<body>
+
+<div style="width: 960px;margin:0 auto;">
+
+    <video id="my_video_1" class="video-js vjs-default-skin" width="960px" height="540px" controls preload="none" poster='http://www.quanzicrm.com/public/static/home/index/image/bg.jpg' data-setup='{ "aspectRatio":"19:9", "playbackRates": [1, 1.5, 2], "language":"zh-CN" }'>
+        <source src="quanzicrm-trailer.mp4" type='video/mp4' />
+        <p class="vjs-no-js">请启用 JavaScript 来观看此视频. 或者您需要 <a href="http://browsehappy.com/">升级您的浏览器</a> 来获得更好的Web浏览体验.</p>
+    </video>
+
+    <p></p>
+
+    <video id="example_video_2" class="video-js vjs-polyzor-skin" controls preload="auto" width="640" height="400" poster="http://www.quanzicrm.com/public/static/home/index/image/bg.jpg" data-setup='{"example_option":true}'>
+        <source src="quanzicrm-trailer.mp4" type='video/mp4' />
+        <!--<source src="http://video-js.zencoder.com/oceans-clip.webm" type='video/webm' />
+        <source src="http://video-js.zencoder.com/oceans-clip.ogv" type='video/ogg' />-->
+        <p class="vjs-no-js">请启用 JavaScript 来观看此视频. 或者您需要 <a href="http://browsehappy.com/">升级您的浏览器</a> 来获得更好的Web浏览体验.</p>
+    </video>
+
+    <!--<p>Custom skin for <a href="http://www.videojs.com" target="_blank">video.js</a>. Requires v5.0.0 or higher.</p>
+
+    <h2>HOW TO CUSTOMIZE:</h2>
+    <ol>
+        <li>Click the CodePen <strong>Fork</strong> link above to create a new copy</li>
+        <li>Change the CSS (SCSS) as desired</li>
+        <li>Click <strong>Save</strong> to save your changes</li>
+        <li>Click <strong>Settings</strong> to name and describe your skin</li>
+        <li>Click the <strong>Share</strong> link to tweet your skin, and include @videojs so we know about it</li>
+    </ol>
+    <h2>HOW TO USE:</h2>
+    <ol>
+        <li>Click "Refresh" if you made any changes</li>
+        <li>Copy the CSS contents of the following box</li>
+        <li>Include it in the page with your player in a &lt;style&gt; tag or with a <a href="http://www.w3schools.com/css/css_howto.asp">stylesheet include</a></li>
+    </ol>
+    <textarea id="css_result"></textarea>
+    <button id="refresh">Refresh</button>-->
+</div>
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="http://vjs.zencdn.net/5.5.3/video.js"></script>
+
+
+</body>
+</html>
